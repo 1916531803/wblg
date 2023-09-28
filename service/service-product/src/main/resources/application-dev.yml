@@ -2,7 +2,7 @@ server:
   port: 8203
 
 mybatis-plus:
-  type-enums-package: com.atguigu.ssyx.enums
+  type-enums-package: com.harrison.wblg.enums
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
@@ -45,4 +45,4 @@ aliyun:
   endpoint: oss-cn-beijing.aliyuncs.com
   keyid: LTAI5tK6q6QVDqZAY3mD4s9s
   keysecret: lCaDcmvm7AvfvJ2BhC6456lufHRFgM
-  bucketname: ssyx-guigu
+  bucketname: wblg-guigu
